@@ -33,7 +33,6 @@ const populate_HTML = (random_Video) => {
 
 };
 
-console.log(category_DOM)
 
 // APP START ///////////////////////////////////////////////////
 get_youtube_Genres(APIKEY)
