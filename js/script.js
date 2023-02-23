@@ -2,7 +2,7 @@ import { get_youtube_Genres, get_vidz_By_cat, get_selected_Cat } from "../js/mod
 
 // GLOBAL VARIABLES ////////////////////////////////////////////
 const APIKEY = 'AIzaSyAONbxh9eB1RVs2uI8JYsvri_iG0Z2CADo';
-const category_DOM = document.querySelector('#genres');
+const category_DOM = document.querySelector('#genres').value;
 const CATEGORY = get_selected_Cat(category_DOM);
 
 
@@ -34,7 +34,6 @@ const populate_HTML = (random_Video) => {
 
 };
 
-console.log(CATEGORY)
 console.log(category_DOM)
 
 // APP START ///////////////////////////////////////////////////
