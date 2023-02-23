@@ -9,7 +9,6 @@ const category_DOM = document.querySelector('#genres');
 const addGenre_Dropdown_Items = (items) => {
 
     const select = document.getElementById('genres')
-
     items.forEach(item => {
 
         let option = document.createElement("option");
