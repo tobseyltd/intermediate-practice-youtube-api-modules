@@ -16,6 +16,7 @@ body {
 
 form label {
     display: block;
+    text-align: center;
 }
 
 form select {
