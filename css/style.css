@@ -19,5 +19,16 @@ form label {
 }
 
 form select {
+    text-align: center;
     width: 100%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#generate-video {
+    height: 2rem;
+    background-color: #c20000;
+    color: black;
+    border: none;
+    font-size: clamp(1vw, 1rem, 1vw);
 }
