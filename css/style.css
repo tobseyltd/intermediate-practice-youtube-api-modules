@@ -6,7 +6,7 @@ body {
     align-items: center;
     color: white;
     background-color: black;
-    font-size: clamp(2vw, 16px, 1vw);
+    font-size: clamp(2vw, 16px, 5vw);
 }
 
 .video-generator {
@@ -31,7 +31,7 @@ form select {
     background-color: #c20000;
     color: black;
     border: none;
-    font-size: clamp(1vw, 1rem, 1vw);
+    font-size: clamp(1vw, 1rem, 5vw);
     cursor: pointer;
 }
 
