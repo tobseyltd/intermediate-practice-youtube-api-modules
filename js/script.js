@@ -40,8 +40,9 @@ get_youtube_Genres(APIKEY)
 
 
 document.getElementById('generate-video').onclick = () => {
+    const selected_Cat = get_selected_Cat(category_DOM);
 
-   get_vidz_By_cat(APIKEY, get_selected_Cat(category_DOM))
+   get_vidz_By_cat(APIKEY, selected_Cat)
         .then(get_Random_video)
         .then(populate_HTML);
 
