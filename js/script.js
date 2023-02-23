@@ -3,7 +3,7 @@ import { get_youtube_Genres, get_vidz_By_cat, get_selected_Cat } from "../js/mod
 // GLOBAL VARIABLES ////////////////////////////////////////////
 const APIKEY = 'AIzaSyAONbxh9eB1RVs2uI8JYsvri_iG0Z2CADo';
 const category_DOM = document.querySelector('#genres');
-const selected_Category = get_selected_Cat(category_DOM);
+const CATEGORY = get_selected_Cat(category_DOM);
 
 
 // HELPERS /////////////////////////////////////////////////////
@@ -34,6 +34,7 @@ const populate_HTML = (random_Video) => {
 
 };
 
+console.log(CATEGORY)
 
 // APP START ///////////////////////////////////////////////////
 get_youtube_Genres(APIKEY)
@@ -42,7 +43,7 @@ get_youtube_Genres(APIKEY)
 
 document.getElementById('generate-video').onclick = () => {
 
-   get_vidz_By_cat(APIKEY, selected_Category)
+   get_vidz_By_cat(APIKEY, CATEGORY)
         .then(get_Random_video)
         .then(populate_HTML);
 

@@ -17,8 +17,6 @@ export const get_youtube_Genres = async (APIKEY) => {
 
 export const get_vidz_By_cat = async (APIKEY, CATEGORY) => {
     
-    // const CATEGORY = get_selected_Genre();
-
     try {
         const RESPONSE = await fetch(`https://www.googleapis.com/youtube/v3/videos?part=id&chart=mostPopular&regionCode=de&videoCategoryId=${CATEGORY}&key=${APIKEY}`, {
             method: 'GET'
