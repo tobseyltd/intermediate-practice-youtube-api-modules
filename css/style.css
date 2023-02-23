@@ -17,3 +17,7 @@ body {
 form label {
     display: block;
 }
+
+form select {
+    width: 100%;
+}
