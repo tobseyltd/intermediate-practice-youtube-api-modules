@@ -5,4 +5,4 @@
 This project fetches the youtube category & video seed lists and displays a random movie fromt
 its selected category. This project uses modules. Feel free to reuse youtube.js in /js/modules
 
-> LIVE VERSION: 
+> LIVE VERSION: https://tobseyltd.github.io/intermediate-practice-youtube-api-modules
