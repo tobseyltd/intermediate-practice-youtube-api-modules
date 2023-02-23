@@ -31,4 +31,9 @@ form select {
     color: black;
     border: none;
     font-size: clamp(1vw, 1rem, 1vw);
+    cursor: pointer;
+}
+
+.video-container {
+    margin-top: 1rem;
 }

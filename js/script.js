@@ -27,9 +27,9 @@ const get_Random_video = (items) => {
 
 const populate_HTML = (random_Video) => {
     document.getElementById('show-video').innerHTML = `
-    <iframe
+    <div class="video-container"><iframe width="80vw"
     src="https://www.youtube.com/embed/${random_Video}">
-    </iframe>`;
+    </iframe></div>`;
 
 };
 
