@@ -37,8 +37,6 @@ const populate_HTML = (random_Video) => {
 // APP START ///////////////////////////////////////////////////
 get_youtube_Genres(APIKEY)
     .then(addGenre_Dropdown_Items);
-    console.log(category_DOM);
-
 
 document.getElementById('generate-video').onclick = () => {
     const selected_Cat = get_selected_Cat(category_DOM);
