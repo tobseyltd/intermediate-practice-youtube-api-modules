@@ -34,7 +34,7 @@ export const get_vidz_By_cat = async (APIKEY, CATEGORY) => {
     }
 };
 
-export const get_selected_Genre = (domElement) => {
+export const get_selected_Cat = (domElement) => {
 
     const category = domElement.value;
     return parseInt(category);
