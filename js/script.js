@@ -44,7 +44,6 @@ document.getElementById('generate-video').onclick = () => {
    get_vidz_By_cat(APIKEY, selected_Cat)
         .then(get_Random_video)
         .then(populate_HTML);
-
 };
 //////////////////////////////////////////////////// APP END //
 
